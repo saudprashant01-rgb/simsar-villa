@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simsar Villa</title>
+
+<style>
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f5f7fa;
+}
+
+header{
+height:90vh;
+background:url("https://images.unsplash.com/photo-1566073771259-6a8506099945") center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+text-align:center;
+}
+
+header h1{
+font-size:60px;
+}
+
+nav{
+background:#0f4c5c;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:60px 20px;
+max-width:1100px;
+margin:auto;
+text-align:center;
+}
+
+.btn{
+background:#0f4c5c;
+color:white;
+padding:12px 25px;
+display:inline-block;
+margin-top:20px;
+text-decoration:none;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+footer{
+background:#0f4c5c;
+color:white;
+text-align:center;
+padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="rooms.html">Rooms</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<header>
+<div>
+<h1>Simsar Villa</h1>
+<p>Comfortable Stay • Food Available • Kitchen for Guests</p>
+<a class="btn" href="rooms.html">View Rooms</a>
+</div>
+</header>
+
+<section>
+<h2>Welcome</h2>
+<p>A peaceful bed & breakfast where guests can relax, enjoy meals, and cook their own food.</p>
+</section>
+
+<section>
+<h2>Why Stay With Us</h2>
+<div class="features">
+<div class="card">
+<h3>Comfortable Rooms</h3>
+<p>Clean and relaxing environment.</p>
+</div>
+
+<div class="card">
+<h3>Homemade Food</h3>
+<p>Fresh meals available daily.</p>
+</div>
+
+<div class="card">
+<h3>Guest Kitchen</h3>
+<p>Cook your own meals anytime.</p>
+</div>
+</div>
+</section>
+
+<footer>
+© 2026 Simsar Villa
+</footer>
+
+</body>
+</html>
